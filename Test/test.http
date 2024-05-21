@@ -1,0 +1,18 @@
+### Create Personnels
+POST http://localhost:4004/factory/hr/Personnels
+Content-Type: application/json
+
+{
+    "name":"Tarik",
+    "surName":"Barletti",
+    "departmentID" : "516edcdb-20d3-4deb-9ec9-d344495e92fa"
+}
+
+### Create Department
+POST http://localhost:4004/factory/hr/Departments
+Content-Type: application/json
+
+{
+    "name": "Computer",
+    "location": "Eskişehir Tepedeki Ev"
+}
