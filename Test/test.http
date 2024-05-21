@@ -13,6 +13,6 @@ POST http://localhost:4004/factory/hr/Departments
 Content-Type: application/json
 
 {
-    "name": "Computer",
-    "location": "Eskişehir Tepedeki Ev"
+    "name": "Computer Deparment",
+    "location": "Somewhere not important"
 }
